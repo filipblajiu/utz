@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>utz | services</title>
+<!-- #EndEditable -->
+<style type="text/css">
+.auto-style3 {
+	text-align: left;
+	line-height: 50px;
+}
+.auto-style4 {
+	font-size: 50pt;
+	font-family: "Gilroy ExtraBold";
+}
+.auto-style5 {
+	font-size: 50pt;
+	font-family: "Gilroy ExtraBold";
+	color: #00FFCC;
+}
+.auto-style18 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: xx-small;
+	text-align: justify;
+	color: #000000;
+	line-height: 10px;
+	white-space: 10px;
+}
+.auto-style10 {
+	font-size: 30pt;
+	font-family: "Gilroy ExtraBold";
+	color: #00FFCC;
+}
+.auto-style16 {
+	font-size: 30pt;
+	font-family: "Gilroy ExtraBold";
+	color: #000000;
+}
+.auto-style12 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+}
+.auto-style2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: xx-small;
+	text-align: justify;
+}
+.auto-style1 {
+	text-align: center;
+}
+.auto-style17 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+	text-align: justify;
+}
+.auto-style7 {
+	text-align: right;
+	line-height: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10pt;
+	vertical-align: top;
+	text-indent: 50px;
+	right: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<p>
+<iframe id="I1" frameborder="0" marginheight="20" marginwidth="20" name="I1" src="menu.html" width="100%" scrolling="no" style="height: 125px" title="topmenu">Your<asp:ImportCatalogPart runat="server" id="ImportCatalogPart1"></asp:ImportCatalogPart>igured not to display inline frames.
+			</iframe>
+
+	
+</p>
+
+<!-- #BeginEditable "body" -->
+<div>
+
+	
+<table align="center" bgcolor="#FFFFFF" style="width: 88%; height: 200px;">
+	<tr>
+		<td id="id1" align="center" class="auto-style3" style="width: 47%; position: relative; left: 2px; top: 2px;" valign="top">
+		<strong><span class="auto-style4">my</span><br class="auto-style4" />
+		</strong><span class="auto-style5">services<br />
+		</span><span class="auto-style4">
+		<span class="auto-style18"><br />
+		<p>feel free to get in touch with me. I am <br />
+		always open to discussing new projects, <br />
+		creative ideas or opportunities to be part <br />
+		of my vision.</span></span></p>
+		</td>
+		<td class="auto-style3" style="width: 400px; line-height: 40px;">
+		<span class="auto-style10">
+		<img alt="" height="64" src="PNG/002-message.png" width="64" /><br />
+		</span>
+		<span class="auto-style16">email<br />
+		</span><span class="auto-style12">utz_bv95@yahoo.com</span><span class="auto-style2"> <br />
+		</span><span class="auto-style10">
+		<img alt="" height="64" src="PNG/003-telephone.png" width="64" /><br />
+		</span>
+		<span class="auto-style16">phone</span><br class="auto-style1" />
+		<span class="auto-style12">073 481 9953</span><span class="auto-style2"> 
+		<br />
+		<span class="auto-style10">
+		<img alt="" height="64" src="PNG/001-placeholder.png" width="64" /><br />
+		</span>
+		<span class="auto-style16">location</span><br class="auto-style1" />
+		</span><span class="auto-style17"> Str.8 Martie nr.220B, Brasov, Romania</span></td>
+		<td align="center" class="auto-style7" style="width: 245px; position: relative; left: 2px; top: 2px;">
+		&nbsp;</td>
+	</tr>
+</table>
+
+	
+
+</div>
+<!-- #EndEditable -->
+
+</body>
+
+</html>

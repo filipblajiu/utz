@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><title>utz | blog</title><meta name="description" content="utz design, blog"/><meta name="keywords" content="blog,daily,news,awwwards,design"/><link rel="SHORTCUT ICON" href="favicon.ico"><iframe id="I1" frameborder="0" marginheight="20" marginwidth="20" name="I1" src="menu.html" width="100%" scrolling="no" style="height: 125px" title="topmenu">Your<asp:ImportCatalogPart runat="server" id="ImportCatalogPart1"></asp:ImportCatalogPart>igured not to display inline frames. </iframe><br /><br /><br /><br /><script type="text/javascript">
+<!--
+function FP_playSound(path) {//v1.0
+ var b,d=document,e,es,i,se="<EMBED SRC='"+path+"' HIDDEN=TRUE LOOP=FALSE AUTOSTART=TRUE>";			
+ if(d.body)b=d.body;	if(d.getElementsByTagName) { es=d.getElementsByTagName('embed')		
+ for(i=0;i<es.length;i++) { e=es(i); if( e.src==path ) { if(e.removeNode) e.removeNode();
+ break; } } if(b&&b.insertAdjacentHTML) b.insertAdjacentHTML("beforeend",se); }
+}
+// -->
+</script>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+<style>body {
+  background-color: none;
+  color: #00000;
+  margin: 0;
+  width:100%;
+}
+
+#content {
+  position:absolute;
+  height: 50px;
+  margin-left: 180px;
+  top: 12%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#content.on {
+  -webkit-animation-name: in-out;
+  animation-name: in-out;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+input {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background: none;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: Roboto;
+  outline: 0;
+  -webkit-transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
+    padding 0.2s;
+  transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
+    padding 0.2s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.search {
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  border-radius: 100%;
+  outline: 0;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.search:before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 1px;
+  background-color: #000000;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: 12px;
+  margin-left: 12px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.close:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  margin-top: -1px;
+  margin-left: -5px;
+  background-color: #000000;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.close:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #000000;
+  margin-top: -1px;
+  margin-left: -5px;
+  cursor: pointer;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 0.9em;
+  background-color: none;
+}
+
+.cards-row {
+	width: 100%;
+}
+
+.card {
+	display: inline-block;
+	width: 30%;
+	min-width: 100px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	animation: scl 0.5s ease-in-out;
+	background-color: #fff;
+}
+.card-title {
+	margin-top: -1.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	color: #fff;
+	font-size: 2em;
+	font-family: "Gilroy ExtraBold";
+}
+.card-image {
+	width: 100%;
+	height: 250px;
+}
+.card-desc {
+  padding: 0 1em 1em 1em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  height: 75px;
+  overflow: hidden;
+  text-align: justify;
+}
+.card-action-readMore {
+	margin: 20px 0 0 0;
+	height: 3em;
+	width: 8em;
+	background: #00ffcc;
+	border: none;
+	font-weight: light;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	outline: none;
+	border-radius: 2px;
+}
+.card-action-readMore:hover {
+  background: black;
+  transition: all 0.1s ease-in;
+}
+.card:hover {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.1s ease-in;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@keyframes scl {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.9) translateX(-50px);
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scaleX(1) translateX(0);
+    opacity: 1;
+  }
+}
+.auto-style2 {
+	text-align: left;
+}
+</style>
+
+</head><body><div class="cards-row" align="center"><div class="card"><a href="https://www.awwwards.com/web-design-trends-2019.html"><img src='https://assets.awwwards.com/awards/images/2019/04/trends-2019-2.jpg' class="card-image" alt="web design" longdesc="web design trends 2019" style="height: 250px" /></a> <div class="card-title" align="left">web design trends | 2019 </div><div class="card-desc">Web Design Trends 2019: Voice Interfaces, Image Search, Fortnite, Alexa and other crazy things that are rocking our world.</div><div class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; April 11, 2019</div><div class="card-actions"><form method="get" action="https://www.awwwards.com/web-design-trends-2019.html"><button type='submit' class='card-action-readMore'>Read More</button></form></div></div><div class="card" style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px;"><a href="https://www.awwwards.com/5-old-school-web-design-trends-nobody-misses.html"><img src='https://assets.awwwards.com/awards/images/2019/03/old-web-3-2.jpg' class="card-image" alt="old school" longdesc="5 old school web designs" style="height: 250px" /></a> <div class="card-title" align="left">5 old school web designs</div><div class="card-desc">Many of the everyday features of web pages seen throughout the 90s and early 2000s have now gone entirely by the wayside, thank goodness.</div><div class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; March 28, 2019</div><div class="card-actions"><form method="get" action="https://www.awwwards.com/5-old-school-web-design-trends-nobody-misses.html"><button type='submit' class='card-action-readMore'>Read More</button></form></div></div><div class="card" style="margin-top: 20px; margin-bottom: 20px; margin-left: 20px;"><a href="https://www.awwwards.com/talk-redefining-reality-with-geoffrey-lillemon-creative-director-of-w-ks-department-of-new-realities.html"><img src='https://assets.awwwards.com/awards/images/2019/04/wk-cover-blog.jpg' class="card-image" alt="redefining" longdesc="redefining reality" style="height: 250px" /></a> <div class="card-title" align="left">redefining reality</div><div class="card-desc">Now we're developing these pods that are fully sensorial kind of little coffins where we can control the smell inside of it.</div><div class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; April 10, 2019</div><div class="card-actions"><form method="get" action="https://www.awwwards.com/talk-redefining-reality-with-geoffrey-lillemon-creative-director-of-w-ks-department-of-new-realities.html"><button type='submit' class='card-action-readMore'>Read More</button></form></div></div></div><br /><iframe id="I2"  frameborder="0" marginheight="20" marginwidth="100" name="footer" scrolling="no" src="footer.html" style="float: bottom; height: 163px;" title="footer" width="100%" class="auto-style1">Your browser does not support inline frames or is currently configured not to display inline frames. </iframe><form id="content" action="https://www.google.com/" class="on" method="get"><input type="text" name="q" class="input" id="search-input"><button type="reset" class="search" id="search-btn"></button></form><script type="text/javascript">
+<!--
+const input = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+const expand = () => {
+  searchBtn.classList.toggle("close");
+  input.classList.toggle("square");
+};
+
+searchBtn.addEventListener("click", expand);
+var buttons = document.getElementsByTagName('button');
+
+Array.prototype.forEach.call(buttons, function (b) {
+    b.addEventListener('click', createRipple);
+});
+
+
+function createRipple (e) {
+		// alert('x');
+    var circle = document.createElement('div');
+    this.appendChild(circle);
+
+    var d = Math.max(this.clientWidth, this.clientHeight);
+
+    circle.style.width = circle.style.height = d + 'px';
+
+var rect = this.getBoundingClientRect();
+circle.style.left = e.clientX - rect.left -d/2 + 'px';
+circle.style.top = e.clientY - rect.top - d/2 + 'px';
+circle.classList.add('ripple');
+		
+	setTimeout(function(){
+		circle.remove();
+	},500);
+}</script>
+
+</body></html>

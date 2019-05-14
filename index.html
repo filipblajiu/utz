@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<noscript>utz is a multidisciplinary interactive agency specialized in the development of new media solutions
+          <a href="index.html" Learn more utz creative design studio.</a></noscript>
+
+<link rel="SHORTCUT ICON" href="favicon.ico">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>utz | creative design studio</title>
+<meta name="description" content="Creative design studio, Inc."/>
+    <meta name="keywords" content="Digital branding,Visual identity,web and app design,online marketing,Digital storytelling"/>
+
+<style type="text/css">
+	#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+.auto-style1 {
+	margin-bottom: 0px;
+}
+.auto-style2 {
+	margin-left: 0px;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-999;
+  color:gray;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+<style>body {
+  background-color: none;
+  color: #00000;
+  margin: 0;
+}
+#content {
+  position:absolute;
+  height: 50px;
+  margin-left: 180px;
+  top: 12%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#content.on {
+  -webkit-animation-name: in-out;
+  animation-name: in-out;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+input {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background: none;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: Roboto;
+  outline: 0;
+  -webkit-transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
+    padding 0.2s;
+  transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
+    padding 0.2s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.search {
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  border-radius: 100%;
+  outline: 0;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.search:before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 1px;
+  background-color: #000000;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: 12px;
+  margin-left: 12px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.close {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.close:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  margin-top: -1px;
+  margin-left: -5px;
+  background-color: #000000;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.close:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #000000;
+  margin-top: -1px;
+  margin-left: -5px;
+  cursor: pointer;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.square {
+  box-sizing: border-box;
+  padding: 0 40px 0 10px;
+  width: 200px;
+  height: 18px;
+  border: 1px solid #000000;
+  border-radius: 0;
+  background: none;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  outline: 0;
+  -webkit-transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
+    padding 0.2s;
+  transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
+    padding 0.2s;
+  -webkit-transition-delay: 0.4s, 0s, 0.4s;
+  transition-delay: 0.4s, 0s, 0.4s;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+body {
+  font-family: "Roboto";
+  font-size: 0.9em;
+  background-color: none;
+}
+
+.cards-row {
+  margin: 0px auto;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  min-width: 400px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  margin: 1em 1.5%;
+  animation: scl 0.5s ease-in-out;
+  transform-origin: left center;
+  background-color: #fff;
+}
+.card-title {
+  margin-top: -1.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  color: #fff;
+  font-size: 2em;
+}
+.card-image {
+  width: 100%;
+  height: 162px;
+}
+.card-desc {
+  padding: 0 1em 1em 1em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  height: 75px;
+  overflow: hidden;
+  text-align: justify;
+}
+.card-action-readMore {
+  margin: 1em 0 1em 1em;
+  height: 3em;
+  width: 8em;
+  background: #00ffcc;
+  border: none;
+  font-weight: light;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  border-radius: 2px;
+}
+.card-action-readMore:hover {
+  background: black;
+  transition: all 0.1s ease-in;
+}
+.card:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in;
+}
+
+.ripple {
+  border-radius: 50%;
+  position: absolute;
+  transform: scale(0);
+  opacity: 1;
+  animation: ripple 0.4s linear;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@keyframes scl {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.9) translateX(-50px);
+  }
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scaleX(1) translateX(0);
+    opacity: 1;
+  }
+}
+</style>
+
+<script type="text/javascript">
+<!--
+function FP_changeProp() {//v1.0
+ var args=arguments,d=document,i,j,id=args[0],o=FP_getObjectByID(id),s,ao,v,x;
+ d.$cpe=new Array(); if(o) for(i=2; i<args.length; i+=2) { v=args[i+1]; s="o"; 
+ ao=args[i].split("."); for(j=0; j<ao.length; j++) { s+="."+ao[j]; if(null==eval(s)) { 
+  s=null; break; } } x=new Object; x.o=o; x.n=new Array(); x.v=new Array();
+ x.n[x.n.length]=s; eval("x.v[x.v.length]="+s); d.$cpe[d.$cpe.length]=x;
+ if(s) eval(s+"=v"); }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+
+<body bgcolor="none">
+
+<form id="form1" runat="server">
+
+<iframe id="I6" frameborder="0" marginheight="20" marginwidth="20" name="I6" src="menu.html" width="100%" scrolling="no" style="height: 125px" title="topmenu">Your<asp:ImportCatalogPart runat="server" id="ImportCatalogPart1"></asp:ImportCatalogPart>igured not to display inline frames.
+			</iframe>
+
+	
+</form>
+<iframe id="I2" border="0" frameborder="0" marginheight="0" marginwidth="0" name="mainframe" scrolling="no" style="width: 100%; float: center; height: 550px;" title="main" src="test1.html" class="auto-style1">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe><br />
+<iframe id="I3" "FP_changeProp(/*id*/'I3',0,'style.borderStyle','solid','style.borderWidth','0.2','style.paddingLeft','3','style.paddingRight','3','style.paddingTop','3')" border="0" frameborder="0" height="160" marginheight="0" marginwidth="0" name="I3" scrolling="no" style="float: inherit; left: 25%;" width="33%" src="test3.html">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+<iframe id="I4" border="0" frameborder="0" height="160" marginheight="0" marginwidth="0" name="I4" scrolling="no" src="test2.html" style="float: middle" width="33%">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+<iframe id="I5" border="0" class="auto-style2" frameborder="0" height="160" marginheight="0" marginwidth="0" name="I5" scrolling="no" src="t3.html" width="33%">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe><br />
+
+<iframe id="I2"  frameborder="0" marginheight="20" marginwidth="100" name="footer" scrolling="no" src="footer.html" style="float: bottom; height: 163px;" title="footer" width="100%" class="auto-style1">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+<video autoplay muted loop id="myVideo">
+  <source src="backgroundo.mp4" type="video/mp4">
+</video>
+<form id="content" action="https://www.google.com/" class="on" method="get">
+  <input type="text" name="q" class="input" id="search-input">
+  <button type="reset" class="search" id="search-btn"></button>
+</form>
+
+<script type="text/javascript">
+<!--
+const input = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+const expand = () => {
+  searchBtn.classList.toggle("close");
+  input.classList.toggle("square");
+};
+
+searchBtn.addEventListener("click", expand);</script>
+
+</body>
+
+</html>
